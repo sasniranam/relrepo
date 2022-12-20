@@ -7,6 +7,6 @@ int main()
         time_t current_time = time(NULL);
         struct tm *tm = localtime(&current_time);
         strftime(time_str, sizeof(time_str), "%c", tm);
-        printf("Current Date and Time:\n%s\n",time_str);
+        printf("Current Date and Time Sharath:\n%s\n",time_str);
         return 0;
 }
