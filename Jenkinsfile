@@ -22,5 +22,11 @@ pipeline {
                 echo 'Fourth Stage SCM'
             }
         }
+        stage('Fifth') {
+            steps {
+                echo 'Fifth Stage SCM'
+            }
+        }
+
     }
 }
